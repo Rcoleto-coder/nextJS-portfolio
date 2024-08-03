@@ -19,7 +19,7 @@ const HeroSection = () => {
         
         <div className="col-span-5">
             <Image 
-                src="/img/168484.jpg"
+                src="/img/robot.png"
                 alt="Profile picture"
                 width={300}
                 height={300}
