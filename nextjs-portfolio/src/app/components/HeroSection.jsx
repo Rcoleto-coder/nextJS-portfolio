@@ -31,9 +31,9 @@ const HeroSection = () => {
             </button>
           </div>
         </div>
-
-        <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className="container rounded-full bg-[#181818] w-[300px] h-[300px] md:w-[360px] md:h-[360px] relative">
+        
+        <div className="col-span-5 mt-4 lg:mt-0 flex items-center justify-center ml-4">
+          <div className="rounded-full bg-[#181818] w-[360px] h-[360px] md:w-[400px] md:h-[400px] relative">
             <Image
               src="/img/memoji-removebg.png"
               alt="Profile picture"
