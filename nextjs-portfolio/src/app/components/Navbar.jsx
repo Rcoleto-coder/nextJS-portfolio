@@ -69,19 +69,13 @@ const Navbar = () => {
       </div>
       {isNavbarOpen ? (
         <>
-        {/* If navbar is open, returns the mobile menu but hides it in wider screens
-        else, hides the menu completely */}
+          {/* If navbar is open, returns the mobile menu but hides it in wider screens
+        else, returns null */}
           <menu className="md:hidden">
             <MenuOverlay navLinks={navLinks} />
           </menu>
         </>
-      ) : (
-        <>
-          <menu className="hidden">
-            <MenuOverlay navLinks={navLinks} />
-          </menu>
-        </>
-      )}
+      ) : null}
     </nav>
   );
 };
