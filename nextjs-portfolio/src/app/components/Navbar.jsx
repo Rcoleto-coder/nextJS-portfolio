@@ -12,7 +12,7 @@ const navLinks = [
     path: "#about",
   },
   {
-    title: "Project",
+    title: "Projects",
     path: "#projects",
   },
   {
@@ -26,7 +26,7 @@ const Navbar = () => {
   const [isNavbarOpen, setNavOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
+    <nav className="fixed top-0 left-0 right-0 z-10 bg-[#0F172A] bg-opacity-100">
       {/* Desktop view navbar */}
       <div className="mx-auto px-4 py-2 flex flex-wrap items-center justify-between">
         <Link

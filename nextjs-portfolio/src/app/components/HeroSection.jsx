@@ -27,13 +27,13 @@ const HeroSection = () => {
             <button
               className="px-1 py-1 mt-4 w-full sm:w-fit font-semibold rounded-full bg-gradient-to-r from-teal-400 to-blue-500 hover:from-pink-500 hover:to-orange-500"
             >
-              <span className="px-5 py-2 block rounded-full bg-[#121212] hover:bg-slate-800">Download CV</span>
+              <span className="px-5 py-2 block rounded-full bg-[#0F172A] hover:bg-slate-800">Download CV</span>
             </button>
           </div>
         </div>
         
         <div className="col-span-5 mt-4 lg:mt-0 flex items-center justify-center ml-4">
-          <div className="rounded-full bg-[#181818] w-[360px] h-[360px] md:w-[400px] md:h-[400px] relative">
+          <div className="rounded-full bg-[#121b31] w-[360px] h-[360px] md:w-[400px] md:h-[400px] relative">
             <Image
               src="/img/memoji-removebg.png"
               alt="Profile picture"
